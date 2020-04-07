@@ -3,7 +3,7 @@
 <div class="title-form">Cadastro de Fornecedor</div>
 <div class="body-form">
     <b-container>
-        <b-form @submit="sendForm">
+        <b-form @submit.prevent="sendForm">
         <b-row>
             <b-col>
                 <b-form-input v-model="name" class="margin-bottom-10"

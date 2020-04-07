@@ -3,7 +3,7 @@
 <div class="title-form">Cadastro de Transportador</div>
 <div class="body-form">
     <b-container>
-        <b-form @submit="sendForm">
+        <b-form @submit.prevent="sendForm">
         <b-row>
             <b-col>
                 <b-form-input class="margin-bottom-10" placeholder="Nome/Razão Social"

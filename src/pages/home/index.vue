@@ -44,12 +44,12 @@ export default {
     height: 200px;
     width: 200px;
     text-align: center;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
 }
 .card-menu div {
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+
 }
 .cards-menu {
     width: 100%;
