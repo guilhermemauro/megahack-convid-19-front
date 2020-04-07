@@ -1,5 +1,6 @@
 <template>
 <div class="cards-container">
+    <img id="logo" src="@/assets/images/logoName.png" />
     <div class="cards-menu">
         <div class="card-menu meddium-green">
             <router-link to="/register/provider">
@@ -38,6 +39,15 @@ export default {
 .cards-container {
     height: 100%;
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cards-container #logo {
+    margin-top: 20px;
+    width: 400px;
+    height: auto;
+    background-color: white;
 }
 .card-menu{
     color: white;
@@ -47,9 +57,6 @@ export default {
     display: flex;
     justify-content:space-around;
     align-items: center;
-}
-.card-menu div {
-
 }
 .cards-menu {
     width: 100%;
@@ -73,6 +80,9 @@ export default {
    .card-menu {
        width: 150px;
        height: 150px;
+   }
+   .cards-container #logo {
+       width: 200px;
    }
 }
 
